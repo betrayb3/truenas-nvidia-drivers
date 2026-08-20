@@ -32,8 +32,8 @@ wget -O /tmp/nvidia.raw https://truenas-drivers.zhouyou.info/25.10.5/nvidia.raw
 # 25.10.6
 wget -O /tmp/nvidia.raw https://truenas-drivers.zhouyou.info/25.10.6/nvidia.raw
 
-# 26.0.0-BETA.2
-wget -O /tmp/nvidia.raw https://truenas-drivers.zhouyou.info/26.0.0-BETA.2/nvidia.raw
+# 26.0.0-BETA.3
+wget -O /tmp/nvidia.raw https://truenas-drivers.zhouyou.info/26.0.0-BETA.3/nvidia.raw
 ```
 
 ### tree structure of the artifacts
@@ -50,9 +50,9 @@ wget -O /tmp/nvidia.raw https://truenas-drivers.zhouyou.info/26.0.0-BETA.2/nvidi
 │   ├── TrueNAS-SCALE-25.10.6.update.sha256
 │   ├── nvidia.raw
 │   └── nvidia.raw.sha256
-├── 26.0.0-BETA.2
-│   ├── TrueNAS-26.0.0-BETA.2.update
-│   ├── TrueNAS-26.0.0-BETA.2.update.sha256
+├── 26.0.0-BETA.3
+│   ├── TrueNAS-26.0.0-BETA.3.update
+│   ├── TrueNAS-26.0.0-BETA.3.update.sha256
 │   ├── nvidia.raw
 │   └── nvidia.raw.sha256
 ```
