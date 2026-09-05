@@ -118,3 +118,4 @@ systemd-sysext merge
 midclt call docker.update '{"nvidia": true}' > /dev/null
 
 echo "NVIDIA drivers installed successfully."
+nvidia-smi
