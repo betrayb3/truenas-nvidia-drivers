@@ -13,6 +13,8 @@ cp /tmp/nvidia.raw /usr/share/truenas/sysext-extensions/nvidia.raw
 zfs set readonly=on "$(zfs list -H -o name /usr)"
 systemd-sysext merge
 systemctl restart docker
+sudo ldconfig
+#added
 ```
 
 ## Patches
